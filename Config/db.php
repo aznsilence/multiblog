@@ -24,9 +24,9 @@ class db
 	const ERROR_LOG_FILE="error.log";
 	public function __construct()
 	{
-		$host = "localhost";
-		$username = "root";
-		$passwd = "password";
+		$host = "";
+		$username = "";
+		$passwd = "";
 		$port = "3306";
 		$db = "blog";
 
